@@ -100,9 +100,6 @@ nav,
 section {
      display: block;
 }
-body {
-     line-height: 1;
-}
 ol,
 ul {
      list-style: none;
@@ -127,10 +124,10 @@ table {
      font-family: 'Inter Tight', 'Roboto', Inter, system-ui, Avenir, Helvetica,
           Arial, sans-serif;
 
-     --primary-background-color: #fcfcfc;
-     --primary-text-color: #181818;
-     --secondary-color: #4262ff;
-     --tertiary-color: #ff9d48;
+     --primary-background-color:#ffffff;
+     --primary-text-color: #44624a;
+     --secondary-color: #688b64;
+     --tertiary-color:#c0cfb2;
 
      --sub-text-size: 0.75em;
      --main-text-size: 1em;
@@ -156,7 +153,6 @@ body {
 
 #root {
      margin: 0 auto;
-     text-align: center;
      width: 100vw;
 }
 

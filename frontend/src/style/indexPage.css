@@ -1,0 +1,61 @@
+.index-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 2em;
+    flex: 1;
+    flex-shrink: 1;
+    box-sizing: border-box;
+}
+
+.index-left {
+    flex: 1;
+
+}
+
+.index-right {
+    flex: 1;
+}
+
+.index-header {
+    font-size: 3.3em;
+    font-weight: 700;
+}
+
+.index-sub-header {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.index-sub-text {
+    margin-top: 1em;
+    font-size: 1.1em;
+    color: var(--secondary-color);
+    text-wrap: wrap;
+    margin-right: 20%;
+}
+
+.index-paragraph {
+    font-size: 1.1em;
+    color: var(--secondary-color);
+    line-height: 1.7;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+
+.cursor-wrapper {
+    z-index: 1003;
+    position: 'relative';
+}
+
+.bold {
+    font-weight: 700;
+}

@@ -1,6 +1,8 @@
 .navbar-container {
-    position: relative;
+    height: 91px;
+    box-sizing: border-box;
 }
+
 
 .header {
     padding: 2em 4em;
@@ -18,6 +20,7 @@
 
 .logo {
     font-size: 1.3em;
+    font-weight: 700;
 }
 
 .nav-links {
