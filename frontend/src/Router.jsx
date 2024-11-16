@@ -1,10 +1,14 @@
-import { Route, createBrowserRouter, createRoutesFromElements } from "react-router-dom"
+import {
+     Route,
+     createBrowserRouter,
+     createRoutesFromElements
+} from 'react-router-dom'
+import IndexPage from './pages/index.jsx'
+
 const Router = createBrowserRouter(
-    createRoutesFromElements(
-        <>
-        
-        </>
-    )
-)
+    createRoutesFromElements(<>
+    <Route path="/" element={<IndexPage/>}/>
+</>
+))
 
 export default Router
