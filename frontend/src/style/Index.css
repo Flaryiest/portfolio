@@ -124,10 +124,10 @@ table {
 }
 
 :root {
-     font-family: 'Poppins', 'Roboto', Inter, system-ui, Avenir, Helvetica,
+     font-family: 'Inter Tight', 'Roboto', Inter, system-ui, Avenir, Helvetica,
           Arial, sans-serif;
 
-     --primary-background-color: #f2f3f4;
+     --primary-background-color: #fcfcfc;
      --primary-text-color: #181818;
      --secondary-color: #4262ff;
      --tertiary-color: #ff9d48;
@@ -137,8 +137,8 @@ table {
      --sub-header-text-size: 1.5em;
      --header-text-size: 2em;
 
-     background-color: var(--main-background-color);
-     color: var(--main-text-color);
+     background-color: var(--primary-background-color);
+     color: var(--primary-text-color);
      line-height: 1.5;
      font-weight: 400;
      font-synthesis: none;
@@ -149,27 +149,27 @@ table {
 
 body {
      margin: 0;
-     display: flex;
+     display: flex; 
      min-width: 320px;
      min-height: 100vh;
 }
 
 #root {
      margin: 0 auto;
-     padding: 2rem;
      text-align: center;
      width: 100vw;
 }
 
 a {
      text-decoration: none;
-     color: var(--main-text-color);
+     color: var(--primary-text-color);
 }
 
 button {
      border: none;
-     color: var(--main-text-color);
-     background-color: var(--main-background-color);
+     color: var(--primary-text-color);
+     background-color: var(--primary-background-color);
      font-family: 'Poppins';
      font-weight: 500;
+     cursor: pointer;
 }
