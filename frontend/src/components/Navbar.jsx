@@ -33,7 +33,7 @@ export default function Navbar() {
             {menuOpen && (
                 <div className="fullscreen-menu">
                     <ul className="fullscreen-links">
-                        <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
+                        <li><Link to="/resume" onClick={toggleMenu}>Resume</Link></li>
                         <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
                         <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
                     </ul>

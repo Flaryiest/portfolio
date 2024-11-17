@@ -48,7 +48,10 @@
     line-height: 1.7;
     margin-bottom: 1em;
     margin-top: 1em;
+}
 
+.index-paragraph-last {
+    margin-bottom: 4em;
 }
 
 .cursor-wrapper {

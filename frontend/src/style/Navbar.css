@@ -91,3 +91,7 @@
         transform: translateY(0);
     }
 }
+
+li {
+    text-align: center;
+}

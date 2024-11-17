@@ -1,0 +1,29 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--primary-text-color);
+    border-width: 2px;
+    padding: 1em 1em;
+}
+
+.project-card-header {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.project-card-description {
+    color: var(--secondary-text-color);
+    font-size: 1.1em;
+}
+
+.project-tag-container {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0.5em 1em;
+    margin-top: 16px;
+}
