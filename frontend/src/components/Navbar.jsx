@@ -16,7 +16,7 @@ export default function Navbar() {
                 <nav className="nav">
                     <ul className="nav-links">
                         <Link to="/projects" className="nav-link">
-                            <li>Projects</li>
+                            <li>Resume</li>
                         </Link>
                         <Link to="/about" className="nav-link">
                             <li>About</li>
@@ -24,7 +24,7 @@ export default function Navbar() {
                         <Link to="/contact" className="nav-link">
                             <li>Contact</li>
                         </Link>
-                        <button className="nav-link menu" onClick={toggleMenu}>
+                        <button className="menu" onClick={toggleMenu}>
                             <img src="assets/menu.svg" alt="Menu" />
                         </button>
                     </ul>
@@ -34,8 +34,8 @@ export default function Navbar() {
                 <div className="fullscreen-menu">
                     <ul className="fullscreen-links">
                         <li><Link to="/resume" onClick={toggleMenu}>Resume</Link></li>
-                        <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
                         <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
+                        <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
                     </ul>
                 </div>
             )}

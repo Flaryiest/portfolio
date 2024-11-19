@@ -22,3 +22,15 @@
     color: var(--tag-text-color);
     min-width: 18ch;
 }
+
+@media only screen and (max-width: 900px) {
+    .experience-card {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .experience-card-dates {
+        text-align: start;
+        justify-content: start;
+    }
+
+}

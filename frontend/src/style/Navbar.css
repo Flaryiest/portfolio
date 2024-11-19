@@ -57,7 +57,7 @@
     background-color: var(--tag-background-color);
     display: flex;
     flex-direction: column;
-    padding-top: 10%;
+    padding-top: 30dvh;
     align-items: center;
     z-index: 1001;
     animation: slideDown 0.3s ease-in-out;
@@ -95,4 +95,17 @@
 
 li {
     text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .header {
+        padding: 1em 1em;
+    }
+    .nav-links {
+        margin: 0;
+    }
+    .nav-link {
+        display: none;
+    }
+
 }

@@ -61,3 +61,12 @@
 .experience-container {
     margin: 64px 0;
 }
+
+@media only screen and (max-width: 900px) {
+    .index-container {
+        flex-direction: column;
+    }
+    .index-sub-text {
+        margin-right: 0;
+    }
+}
