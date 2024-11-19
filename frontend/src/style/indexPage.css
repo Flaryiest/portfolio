@@ -54,10 +54,7 @@
     margin-bottom: 4em;
 }
 
-.cursor-wrapper {
-    z-index: 1003;
-    position: 'relative';
-}
+
 
 .bold {
     font-weight: 700;

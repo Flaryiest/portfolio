@@ -173,3 +173,8 @@ button {
      cursor: pointer;
 }
 
+.cursor-wrapper {
+     position: relative;
+     z-index: 2000;
+     
+ }
