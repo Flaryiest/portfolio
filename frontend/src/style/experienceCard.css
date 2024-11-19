@@ -1,0 +1,25 @@
+.experience-card {
+    display: flex;
+    line-height: 1.7;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: var(--primary-text-color);
+    padding: 1em 1em;
+    gap: 2em;
+}
+
+.experience-card-header {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.experience-card-dates {
+    font-size: 0.9em;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    color: var(--tag-text-color);
+    min-width: 18ch;
+}

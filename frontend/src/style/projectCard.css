@@ -5,13 +5,14 @@
     border-radius: 8px;
     border-style: solid;
     border-color: var(--primary-text-color);
-    border-width: 2px;
+    border-width: 1px;
     padding: 1em 1em;
 }
 
 .project-card-header {
     font-weight: 700;
     margin-bottom: 10px;
+    font-size: 1.2em;
 }
 
 .project-card-description {
