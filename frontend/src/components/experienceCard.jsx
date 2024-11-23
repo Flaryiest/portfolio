@@ -8,7 +8,5 @@ export default function ExperienceCard({title, description, startDate, endDate})
             <h3 className="experience-card-header">{title}</h3>
             <p className="experience-card-description">{description}</p>
         </div>
-
-
     </div>
 }

@@ -8,7 +8,7 @@ import Layout from './layout.jsx';
 import IndexPage from './pages/index.jsx';
 import ErrorPage from './pages/404.jsx';
 import ContactPage from './pages/contact.jsx';
-
+import AboutPage from "./pages/about.jsx"
 
 
 const Router = createBrowserRouter(
@@ -16,6 +16,7 @@ const Router = createBrowserRouter(
         <Route path="/" element={<Layout />}>
             <Route index element={<IndexPage />} />
             <Route path="/contact" element={<ContactPage/>} />
+            <Route path="/about" element={<AboutPage/>} />
             <Route path="*" element={<ErrorPage />} />
         </Route>
     )

@@ -6,10 +6,16 @@ export default function IndexPage() {
          <div className="index-container">
             <div className="index-left">
                <h1 className="index-header">Eric Zuo</h1>
-               <h2 className="index-sub-header">Full-Stack Engineer</h2>
+               <h2 className="index-sub-header">Full-Stack Developer</h2>
                <p className="index-sub-text">I build full-stack web applications that blend thoughtful design with rich features and accessiblility.</p>
                <div className="index-headshot-container">
+                  <img className="index-headshot" src="/assets/cat-placeholder.jpg"></img>
                </div>
+               <div className="social-links">
+                  <a className="social-link" href="https://github.com/Flaryiest"><img src="/assets/linkedin-logo.svg"></img></a>
+                  <a className="social-link" href="https://github.com/Flaryiest"><img src="/assets/github-logo.svg"></img></a>
+               </div>
+
             </div>
             <div className="index-right">
                <p className="index-paragraph">Hello, I'm an independent developer from Calgary, Alberta. My primary tech stack is PERN (PostgreSQL, Express, React, Node.js).</p>
