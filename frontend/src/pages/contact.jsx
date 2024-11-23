@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import '../style/contact.css';
 const ContactPage = () => {
   const [message, setMessage] = useState('')
+  const [email, setEmail] = useState('')
+  const [name, setName] = useState('')
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("Form Submitted:", { message });
@@ -28,8 +30,11 @@ const ContactPage = () => {
     <div className="contact-form-container">
       <form className="contact-form" onSubmit={handleSubmit}>
         <h2 className="contact-form-title">Contact</h2>
-
-        <label htmlFor="message" className="contact-form-label">Feedback</label>
+        <label htmlFor="email" className="contact-form-label">Your Email</label>
+        <input id="email" className="contact-form-input" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email'></input>
+        <label htmlFor="name" className="contact-form-label">Your Name</label>
+        <input id="name" className="contact-form-input" value={name} onChange={(e) => setName(e.target.value)} placeholder='Name'></input>
+        <label htmlFor="message" className="contact-form-label">Message</label>
         <textarea
           id="message"
           className="contact-form-textarea"

@@ -44,8 +44,15 @@
     box-sizing: border-box;
 }
 
+input:focus, textarea:focus {
+    border-color: white;
+    outline: 5px auto var(--primary-text-color);
+}
+
 .contact-form-textarea {
-    resize: vertical;
+    font-family: "Inter Tight";
+    font-size: 1.1em;
+    resize: none;
     min-height: 40vh;
 }
 
@@ -64,6 +71,7 @@
 .contact-form-button:hover {
     background-color: pink;
 }
+
 
 @media (max-width: 480px) {
     .contact-form {
