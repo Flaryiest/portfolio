@@ -18,9 +18,6 @@ export default function Navbar() {
                         <Link to="/projects" className="nav-link">
                             <li>Resume</li>
                         </Link>
-                        <Link to="/about" className="nav-link">
-                            <li>About</li>
-                        </Link>
                         <Link to="/contact" className="nav-link">
                             <li>Contact</li>
                         </Link>
@@ -33,8 +30,8 @@ export default function Navbar() {
             {menuOpen && (
                 <div className="fullscreen-menu">
                     <ul className="fullscreen-links">
+                        <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
                         <li><Link to="/resume" onClick={toggleMenu}>Resume</Link></li>
-                        <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
                         <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
                     </ul>
                 </div>

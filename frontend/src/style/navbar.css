@@ -74,7 +74,7 @@
 }
 
 .fullscreen-links a {
-    color: black;
+    color: var(--primary-text-color);
     font-size: 1.5em;
     font-weight: 700;
     text-decoration: none;
