@@ -15,9 +15,9 @@ export default function Navbar() {
                 <Link to="/" className="logo">Eric Zuo</Link>
                 <nav className="nav">
                     <ul className="nav-links">
-                        <Link to="/projects" className="nav-link">
-                            <li>Resume</li>
-                        </Link>
+                        <li className="nav-link">
+                            <a href="/Eric Zuo Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                        </li>
                         <Link to="/contact" className="nav-link">
                             <li>Contact</li>
                         </Link>
@@ -31,7 +31,7 @@ export default function Navbar() {
                 <div className="fullscreen-menu">
                     <ul className="fullscreen-links">
                         <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
-                        <li><Link to="/resume" onClick={toggleMenu}>Resume</Link></li>
+                        <li><a href="/Eric Zuo Resume.pdf" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>Resume</a></li>
                         <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
                     </ul>
                 </div>
