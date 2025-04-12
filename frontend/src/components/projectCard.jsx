@@ -12,7 +12,6 @@ export default function ProjectCard({title, description, tags, urls}) {
         </div>
         <div className="project-urls-container">
             <a className="project-url" href={urls[0]}>Github Repo <img src="assets/arrow-right.svg"></img></a>
-            <a className="project-url" href={urls[1]}>Learn More <img src="assets/arrow-right.svg"></img></a>
         </div>
     </div>
 

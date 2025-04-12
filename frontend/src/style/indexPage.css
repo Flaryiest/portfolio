@@ -88,6 +88,12 @@
     align-items: center;
 }
 
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 
 @media only screen and (max-width: 900px) {
     .index-left {
