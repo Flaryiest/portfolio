@@ -23,6 +23,29 @@
     min-width: 18ch;
 }
 
+.experience-card-header-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.experience-card-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-color, #4a90e2);
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.experience-card-link:hover {
+    color: var(--accent-hover-color, #2a70c2);
+    transform: translateY(-1px);
+}
+
+.experience-card-link-icon {
+    stroke: currentColor;
+}
+
 @media only screen and (max-width: 1200px) {
     .experience-card {
         flex-direction: column;

@@ -51,9 +51,31 @@ export default function IndexPage() {
                   />
                </div>
                <div className="experience-container">
-                  <ExperienceCard title={"Web Developer - Elvaria"} description={"Developed a dynamic website using React, TypeScript, and Node.js with PostgreSQL. Built a volunteer management portal reducing management time by 40%. Designed the website's layout in Figma using UI/UX principles."} startDate={"Jan 2025"} endDate={"Mar 2025"}/>
-                  <ExperienceCard title={"Director of Technology - Futurlign"} description={"Led AI workshops for over 100 students, delivering practical knowledge and hands-on experience with coding. Collaborated with a team of 20 individuals to design and create a comprehensive AI curriculum."} startDate={"Oct 2023"} endDate={"Ongoing"}/>
-                  <ExperienceCard title={"Robotics Engineer - Vex Robotics"} description={"Programmed autonomous and driver-control systems in C++, integrating odometry and PID for precision. Designed and built robots, utilizing pneumatics and motors, winning Judges Award at provincials."} startDate={"Sep 2025"} endDate={"Ongoing"}/>
+                  <ExperienceCard 
+                     title={"Web Developer - Elvaria"} 
+                     description={"Developed a dynamic website using React, TypeScript, and Node.js with PostgreSQL. Built a volunteer management portal reducing management time by 40%. Designed the website's layout in Figma using UI/UX principles."} 
+                     startDate={"Jan 2025"} 
+                     endDate={"Mar 2025"}
+                  />
+                  <ExperienceCard 
+                     title={"Director of Technology - Futurlign"} 
+                     description={"Led AI workshops for over 100 students, delivering practical knowledge and hands-on experience with coding. Collaborated with a team of 20 individuals to design and create a comprehensive AI curriculum."} 
+                     startDate={"Oct 2023"} 
+                     endDate={"Ongoing"}
+                  />
+                  <ExperienceCard 
+                     title={"Organizer - WildRose Hacks"} 
+                     description={"Designed and implemented the official website for Calgary's premier hackathon using modern web technologies. Created a participant portal for streamlined registration and project submission. Led content strategy, including technical workshop planning, mentorship coordination, and event logistics to create an inspiring environment for innovators."} 
+                     startDate={"Feb 2025"} 
+                     endDate={"Ongoing"} 
+                     url={"https://wildrosehacks.ca/"}
+                  />
+                  <ExperienceCard 
+                     title={"Robotics Engineer - Vex Robotics"} 
+                     description={"Programmed autonomous and driver-control systems in C++, integrating odometry and PID for precision. Designed and built robots, utilizing pneumatics and motors, winning Judges Award at provincials."} 
+                     startDate={"Sep 2025"} 
+                     endDate={"Ongoing"}
+                  />
                </div>
             </div>
          </div>
