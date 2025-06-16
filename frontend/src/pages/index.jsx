@@ -10,7 +10,7 @@ export default function IndexPage() {
                      <h2 className="index-sub-header">Full-Stack Developer</h2>
                      <p className="index-sub-text">I build full-stack web applications that blend thoughtful design with rich features and accessiblility.</p>
                      <div className="index-headshot-container">
-                        <img className="index-headshot" src="/assets/cat-placeholder.jpg" alt="Eric Zuo"></img>
+                        <img className="index-headshot" src="/assets/cat-placeholder.webp" alt="Photo of a cat"></img>
                      </div>
                      <div className="social-links">
                         <a className="social-link" href="https://linkedin.com/in/ericzuo8" target="_blank" rel="noopener noreferrer"><img src="/assets/linkedin-logo.svg" alt="LinkedIn"></img></a>
