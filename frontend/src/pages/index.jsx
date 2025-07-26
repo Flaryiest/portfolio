@@ -24,32 +24,6 @@ export default function IndexPage() {
                <p className="index-paragraph">From learning how to center a div to developing my first full-stack web application, my web development journey has been one of continuous growth and discovery. Each project has deepened my skills and fueled my passion for building impactful solutions. I'm eager to use my experience to contribute meaningfully and continue expanding my abilities to tackle even greater challenges in the future.</p>
                <p className="index-paragraph index-paragraph-last">I've had the opportunity to work on many unique projects, with many unique people. <span className="bold">Now I want to work with you.</span></p>
                <div className="index-divider"></div>
-               <div className="project-container">
-                  <ProjectCard 
-                     title={"Evolition"} 
-                     description={"A skill-based task management application that transforms regular to-do lists into meaningful skill progression. Users complete tasks to level up skills while receiving AI-generated task suggestions based on their development goals."} 
-                     tags={["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma", "OpenAI"]} 
-                     urls={["https://github.com/Flaryiest/evolition"]}
-                  />
-                  <ProjectCard 
-                     title={"ChangePod"} 
-                     description={"1st place winner ($5000) of Hack the Change 2024. A dynamic web application connected to an Arduino and ESP32, that aggregates user data and turns it into suggestions to help improve the community."} 
-                     tags={["React", "Flask", "PostgreSQL", "CSS", "OpenAI"]} 
-                     urls={["https://github.com/Flaryiest/hack-the-change", "https://devpost.com/software/changepod"]}
-                  />
-                  <ProjectCard 
-                     title={"LifePod"} 
-                     description={"1st place winner of MiniMedi Hacks 2024. A medical-oriented web application using TypeScript, React, and Node.js with real-time communication for medical professionals."} 
-                     tags={["TypeScript", "React", "Node.js", "PostgreSQL", "CSS"]} 
-                     urls={["https://github.com/Flaryiest/LifePod"]}
-                  />
-                  <ProjectCard 
-                     title={"Computing4Charity"} 
-                     description={"Full-stack application enabling users to mine cryptocurrency and redeem points for donations to charities."} 
-                     tags={["TypeScript", "React", "Node.js", "Express", "PostgreSQL", "Python"]} 
-                     urls={["https://github.com/Flaryiest"]}
-                  />
-               </div>
                <div className="experience-container">
                   <ExperienceCard 
                      title={"Web Developer - Elvaria"} 
@@ -77,6 +51,34 @@ export default function IndexPage() {
                      endDate={"Ongoing"}
                   />
                </div>
+               <div className="project-container">
+
+                  <ProjectCard 
+                     title={"ChangePod"} 
+                     description={"1st place winner ($5000) of Hack the Change 2024. A dynamic web application connected to an Arduino and ESP32, that aggregates user data and turns it into suggestions to help improve the community."} 
+                     tags={["React", "Flask", "PostgreSQL", "CSS", "OpenAI"]} 
+                     urls={["https://github.com/Flaryiest/hack-the-change", "https://devpost.com/software/changepod"]}
+                  />
+                  <ProjectCard 
+                     title={"LifePod"} 
+                     description={"1st place winner of MiniMedi Hacks 2024. A medical-oriented web application using TypeScript, React, and Node.js with real-time communication for medical professionals."} 
+                     tags={["TypeScript", "React", "Node.js", "PostgreSQL", "CSS"]} 
+                     urls={["https://github.com/Flaryiest/LifePod"]}
+                  />
+                  <ProjectCard 
+                     title={"Evolition"} 
+                     description={"A skill-based task management application that transforms regular to-do lists into meaningful skill progression. Users complete tasks to level up skills while receiving AI-generated task suggestions based on their development goals."} 
+                     tags={["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma", "OpenAI"]} 
+                     urls={["https://github.com/Flaryiest/evolition"]}
+                  />
+                  <ProjectCard 
+                     title={"Computing4Charity"} 
+                     description={"Full-stack application enabling users to mine cryptocurrency and redeem points for donations to charities."} 
+                     tags={["TypeScript", "React", "Node.js", "Express", "PostgreSQL", "Python"]} 
+                     urls={["https://github.com/Flaryiest"]}
+                  />
+               </div>
+
             </div>
          </div>
      </div>
