@@ -28,8 +28,8 @@ export default function IndexPage() {
                   <ExperienceCard 
                      title={"Web Developer - Elvaria"} 
                      description={"Developed a dynamic website using React, TypeScript, and Node.js with PostgreSQL. Built a volunteer management portal reducing management time by 40%. Designed the website's layout in Figma using UI/UX principles."} 
-                     startDate={"Jan 2025"} 
-                     endDate={"Mar 2025"}
+                     startDate={"Mar 2025"} 
+                     endDate={"May 2025"}
                   />
                   <ExperienceCard 
                      title={"Director of Technology - Futurlign"} 
